@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+.flexbox {
+  display: flex;
+  height: 100vh;
+
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url(skyline.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.top img {
+  width: 330px;
+  height: 230px;
+}
+.bottom {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1em;
+}
